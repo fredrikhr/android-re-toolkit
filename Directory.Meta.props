@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup Label="Common Package Metadata">
+    <Authors>Fredrik Høisæther Rasch</Authors>
+    <Product>Android Reverse Engineering CI toolkit</Product>
+    <Copyright>Written by Fredrik Høisæther Rasch, $([System.DateTime]::Now.Year)</Copyright>
+    <PackageProjectUrl>https://github.com/couven92/android-re-toolkit</PackageProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Label="Repository Metadata">
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup Label="License">
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
