@@ -1,12 +1,29 @@
-﻿using System;
+﻿using System.CommandLine.Invocation;
+using System.Threading;
+using System.Threading.Tasks;
+
+using Microsoft.Extensions.Hosting;
+
+using THNETII.CommandLine.Hosting;
 
 namespace Couven92.AndroidRe.ToolkitConsole
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static ICommandHandler RootCommandHandler { get; } = CommandHandler.Create(
+        (IHost host, CancellationToken cancelToken) =>
         {
-            Console.WriteLine("Hello World!");
+
+        });
+
+        public static Task<int> Main(string[] args)
+        {
+            var definition = new RootCommandDefinition(RootCommandHandler);
+
+            return DefaultCommandLine.InvokeAsync(definition, args, host =>
+            {
+
+            });
         }
     }
 }

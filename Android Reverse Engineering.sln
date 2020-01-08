@@ -20,6 +20,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A965AF49-10E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Couven92.AndroidRe.ToolkitConsole", "src\Couven92.AndroidRe.ToolkitConsole\Couven92.AndroidRe.ToolkitConsole.csproj", "{ACE409CC-E963-4A08-91B7-F9ABE1272921}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-common", "dotnet-common", "{4C27ECD6-7042-431D-A050-E718E99699F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D97334F0-0AAF-4379-B7D2-82F1583703F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.CommandLine.Hosting", "dotnet-common\src\THNETII.CommandLine.Hosting\THNETII.CommandLine.Hosting.csproj", "{19613B92-4F18-490A-940D-F08E806EE4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,12 +48,26 @@ Global
 		{ACE409CC-E963-4A08-91B7-F9ABE1272921}.Release|x64.Build.0 = Release|Any CPU
 		{ACE409CC-E963-4A08-91B7-F9ABE1272921}.Release|x86.ActiveCfg = Release|Any CPU
 		{ACE409CC-E963-4A08-91B7-F9ABE1272921}.Release|x86.Build.0 = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|x64.Build.0 = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{19613B92-4F18-490A-940D-F08E806EE4D4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ACE409CC-E963-4A08-91B7-F9ABE1272921} = {A965AF49-10E8-42B1-B799-39F360C4AC88}
+		{D97334F0-0AAF-4379-B7D2-82F1583703F1} = {4C27ECD6-7042-431D-A050-E718E99699F1}
+		{19613B92-4F18-490A-940D-F08E806EE4D4} = {D97334F0-0AAF-4379-B7D2-82F1583703F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDC8012B-FB25-4E31-B6FB-DCB087B4C1FF}
